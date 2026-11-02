@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="referrer" content="same-origin">
+  <title>迈思社区 · 动态论坛</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234f6ef7'/%3E%3Ctext x='16' y='22' font-size='17' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'%3E%E6%9F%9A%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- 顶栏 -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#/" data-nav>
+        <span class="logo-mark">mindsForum</span>
+        <span id="siteName">迈思社区</span>
+      </a>
+      <nav class="header-nav">
+        <a href="#/" data-nav class="active" data-navkey="home">首页</a>
+        <a href="#/topics" data-nav data-navkey="topics">全部话题</a>
+        <a href="#/ads" data-nav data-navkey="ads">广告招商</a>
+      </nav>
+      <div class="header-spacer"></div>
+      <form class="header-search" id="searchForm" role="search" autocomplete="off">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" id="searchInput" placeholder="搜索帖子、用户…" aria-label="搜索">
+      </form>
+      <div class="header-user" id="headerUser"></div>
+    </div>
+  </header>
+
+  <!-- 主体 -->
+  <main class="wrap" id="app">
+    <div class="card skeleton">
+      <div class="skeleton-row"></div>
+      <div class="skeleton-row"></div>
+      <div class="skeleton-row"></div>
+    </div>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span id="footerName">青柚社区</span>
+      <span class="dot"></span>
+      <span>论坛</span>
+      <span class="dot"></span>
+      <span id="footerStats"></span>
+    </div>
+  </footer>
+
+  <!-- 弹窗与提示挂载点 -->
+  <div id="modalHost"></div>
+  <div class="toast-host" id="toastHost"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-label="微信名片占位图">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7fbf7"/>
+      <stop offset="100%" stop-color="#eaf5ec"/>
+    </linearGradient>
+    <linearGradient id="hd" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1aad19"/>
+      <stop offset="100%" stop-color="#2fc25b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="420" rx="16" fill="url(#bg)"/>
+  <rect width="600" height="96" rx="16" fill="url(#hd)"/>
+  <rect y="72" width="600" height="24" fill="url(#hd)"/>
+
+  <circle cx="52" cy="48" r="22" fill="#ffffff" opacity="0.22"/>
+  <path d="M44 42c0-4.4 4.5-8 10-8s10 3.6 10 8-4.5 8-10 8c-1.2 0-2.4-.2-3.4-.5L45 51l1.4-3.6C45 45.9 44 44 44 42z" fill="#ffffff"/>
+  <text x="88" y="44" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="700" fill="#ffffff">微信名片 · 广告招商合作</text>
+  <text x="88" y="68" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#e6f7e9">扫一扫添加站长微信，洽谈论坛广告位合作</text>
+
+  <rect x="188" y="128" width="224" height="224" rx="12" fill="#ffffff" stroke="#d8e6da" stroke-width="2"/>
+
+  <g fill="#2b2f36">
+    <rect x="212" y="152" width="60" height="60" rx="4" fill="none" stroke="#2b2f36" stroke-width="9"/>
+    <rect x="232" y="172" width="20" height="20" rx="2"/>
+    <rect x="328" y="152" width="60" height="60" rx="4" fill="none" stroke="#2b2f36" stroke-width="9"/>
+    <rect x="348" y="172" width="20" height="20" rx="2"/>
+    <rect x="212" y="268" width="60" height="60" rx="4" fill="none" stroke="#2b2f36" stroke-width="9"/>
+    <rect x="232" y="288" width="20" height="20" rx="2"/>
+
+    <rect x="292" y="152" width="14" height="14"/>
+    <rect x="292" y="180" width="14" height="14"/>
+    <rect x="292" y="212" width="14" height="14"/>
+    <rect x="264" y="232" width="14" height="14"/>
+    <rect x="292" y="232" width="42" height="14"/>
+    <rect x="348" y="232" width="14" height="14"/>
+    <rect x="376" y="232" width="14" height="14"/>
+    <rect x="212" y="232" width="14" height="14"/>
+    <rect x="240" y="232" width="14" height="14"/>
+
+    <rect x="292" y="268" width="14" height="14"/>
+    <rect x="320" y="268" width="14" height="14"/>
+    <rect x="348" y="268" width="42" height="14"/>
+    <rect x="292" y="296" width="42" height="14"/>
+    <rect x="348" y="296" width="14" height="14"/>
+    <rect x="376" y="296" width="14" height="14"/>
+    <rect x="292" y="324" width="14" height="14"/>
+    <rect x="320" y="324" width="42" height="14"/>
+    <rect x="376" y="324" width="14" height="14"/>
+    <rect x="212" y="348" width="14" height="14"/>
+    <rect x="240" y="348" width="42" height="14"/>
+    <rect x="292" y="348" width="14" height="14"/>
+    <rect x="320" y="348" width="14" height="14"/>
+    <rect x="348" y="348" width="42" height="14"/>
+  </g>
+
+  <rect x="272" y="216" width="56" height="56" rx="10" fill="#1aad19"/>
+  <path d="M291 240c0-6.1 6.3-11 14-11s14 4.9 14 11-6.3 11-14 11c-1.7 0-3.3-.2-4.8-.6l-6.6 2.4 2-5.1c-2.9-1.9-4.6-4.5-4.6-6.7z" fill="#ffffff"/>
+
+  <text x="300" y="384" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="15" font-weight="600" fill="#3d7a45">占位图 · 请替换为你的真实微信名片</text>
+  <text x="300" y="406" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#7ba582">替换方式：覆盖 public/assets/wechat-card.svg，或在站长后台上传后填入广告位图片字段</text>
+</svg>
